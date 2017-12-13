@@ -18,7 +18,7 @@ Implementação original: https://github.com/shekkizh/FCN.tensorflow:
 
 data_selection.py - criado para selecionar estocasticamente as imagens de treino.
 
-FCN - utilizado para treinar, validar e testar:
+FCN.py- utilizado para treinar, validar e testar:
 
 * $python FCN.py (TREINO)
 * $python FCN.py --mode visualize (PREDIÇÃO)
@@ -30,4 +30,3 @@ read_MITSceneParsingData - Modificado a forma de aquisição dos dados.
 ## Dependencias:
 
 `pip apt-get install python numpy tensorflow-gpu`
-
