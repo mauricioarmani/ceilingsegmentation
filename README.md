@@ -29,4 +29,4 @@ read_MITSceneParsingData - Modificado a forma de aquisição dos dados.
 
 ## Dependencias:
 
-`pip apt-get install python numpy tensorflow-gpu`
+`pip install python numpy tensorflow-gpu`
