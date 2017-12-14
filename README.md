@@ -33,6 +33,9 @@ read_MITSceneParsingData - Modificado a forma de aquisição dos dados.
 
 ## Predição
 1 - Criar pasta model/ na raiz e colocar dentro o grafo da VGG19: http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat.
+
 2 - No arquivo predict.py colocar o caminho da imagem em IMAGE_PATH
+
 3 - Rodar o arquivo predict.py
+
 4 - Resultado será salvo na pasta logs/
