@@ -166,9 +166,7 @@ def main(argv=None):
     summary_op = tf.summary.merge_all()
 
     print("Setting up image reader...")
-    # train_records, valid_records = scene_parsing.read_dataset(FLAGS.data_dir)
-    train_records, valid_records = scene_parsing.read_dataset('data_test2/') # mexi para rodar TESTE
-
+    train_records, valid_records = scene_parsing.read_dataset(FLAGS.data_dir)
 
     print(len(train_records))
     print(len(valid_records))
