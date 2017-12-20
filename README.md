@@ -21,7 +21,7 @@ data_selection.py - criado para selecionar estocasticamente as imagens de treino
 FCN.py- utilizado para treinar, validar e testar:
 
 * $python FCN.py (TREINO)
-* $python FCN.py --mode visualize (PREDIÇÃO)
+* $python FCN.py --mode visualize (VISUALIZAR DADOS DE VALIDAÇÃO)
 
 name_correction.py - script criado para ajustar o nome dos dados
 
